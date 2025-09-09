@@ -4,8 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adc04210-6ccc-4a74-a408-da0739ef86b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="adc04210-6ccc-4a74-a408-da0739ef86b0" name="Changes" comment="FE Init">
+      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/app/app.config.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/app/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/app/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/app/app.routes.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/app/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/app/app.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/app/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/main.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bomb-me/tsconfig.spec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,35 +41,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="32SdE9z4D4lpvqO1M6njeBPKEOh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Repos/hackaton-2025-team-mark",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Repos/hackaton-2025-team-mark&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
@@ -55,10 +82,34 @@
       <option name="presentableId" value="Default" />
       <updated>1757417793319</updated>
       <workItem from="1757417805932" duration="2255000" />
+      <workItem from="1757426688765" duration="111000" />
     </task>
+    <task id="LOCAL−00001" summary="FE Init">
+      <option name="closed" value="true" />
+      <created>1757426734071</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1757426734071</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FE Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="FE Init" />
   </component>
 </project>

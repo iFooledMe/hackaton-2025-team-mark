@@ -1,20 +1,16 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { BombHttpService } from './services/bomb-http-service';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  standalone: true,
-  host: { ngSkipHydration: '' }, 
   templateUrl: './app.html',
- styleUrls: ['./app.scss']
+  standalone: false,
+  styleUrl: './app.scss'
 })
 export class App {
-  constructor(private bombHtttpService: BombHttpService) {}
+  protected readonly title = signal('bomb-app');
 
-  roundStarted: boolean = false
-  boooom = signal(false);
+    roundStarted: boolean = false
+  boooom: boolean = false;
 
   onClick(): void {
     if (!this.roundStarted) this.roundStarted = true
@@ -25,7 +21,7 @@ export class App {
     // });
 
     setTimeout(() => {
-      this.boooom.set(true);
+      this.boooom = true
     }, this.getRandomInt() * 1000);
 
 
@@ -36,5 +32,4 @@ export class App {
     const max = 11;
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
-
 }
